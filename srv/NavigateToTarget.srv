@@ -1,0 +1,13 @@
+# 请求
+float64 latitude                  # 目标纬度 (degrees)
+float64 longitude                 # 目标经度 (degrees)
+float64 altitude                  # 目标高度 (m)
+float64 max_velocity             # 最大速度 (m/s)
+float64 max_acceleration        # 最大加速度 (m/s^2)
+float64 heading                 # 目标朝向 (rad)
+---
+# 响应
+bool success                     # 是否成功
+string message                   # 状态信息
+float64 final_distance          # 最终距离目标的距离 (m)
+float64 final_heading_error     # 最终朝向误差 (rad)

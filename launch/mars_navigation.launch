@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Launch mars navigation node -->
+  <node name="mars_navigation_node" pkg="mars_navigation" type="mars_navigation_node" output="screen">
+    <!-- Add parameters here -->
+    <param name="max_acceleration" value="0.5" />
+    <param name="control_frequency" value="10.0" />
+    <param name="maximum_linear_speed" value="1.0" />
+    <param name="look_ahead_distance" value="1.0"/>
+    <param name="wheel_base" value="0.5"/>
+    <param name="kp_angular" value="1.0"/>
+    <param name="max_angular_velocity" value="1.0"/>
+  </node>
+</launch> 

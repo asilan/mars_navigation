@@ -1,0 +1,6 @@
+# 请求
+Waypoint[] waypoints    # 航点列表
+---
+# 响应
+bool success           # 是否成功
+string message         # 状态信息 

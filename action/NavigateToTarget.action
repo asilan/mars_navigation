@@ -1,0 +1,13 @@
+# 目标参数
+mars_navigation/Waypoint target  # 目标航点
+---
+# 结果
+bool success         # 是否成功到达目标
+string message       # 状态信息
+float64 final_distance      # 最终距离 (m)
+float64 final_heading_error # 最终航向误差 (rad)
+---
+# 反馈
+float64 current_distance   # 当前距离 (m)
+float64 current_heading_error # 当前航向误差 (rad)
+float64 current_velocity   # 当前速度 (m/s)

@@ -1,0 +1,8 @@
+# 请求
+bool emergency_stop    # 是否执行紧急停止
+string reason         # 紧急停止原因
+---
+# 响应
+bool success          # 是否成功执行
+string message        # 执行结果信息
+float64 stop_distance # 停止距离 
