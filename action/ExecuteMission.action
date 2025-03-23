@@ -8,8 +8,8 @@ float64 final_distance # 最终距离
 float64 final_heading_error # 最终朝向误差
 ---
 # 反馈
-uint32 current_waypoint_index  # 当前航点索引
-float64 distance_to_target    # 到目标距离
+uint32 current_waypoint  # 当前航点索引
+float64 distance_to_waypoint    # 到目标距离
 float64 heading_error        # 朝向误差
 float64 current_velocity     # 当前速度
 float64 battery_level       # 电池电量 
